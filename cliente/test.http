@@ -1,0 +1,17 @@
+GET http://localhost:3000/estudiantes
+
+### 
+POST http://localhost:3000/estudiantes
+Content-Type: application/json
+
+{
+    "nombre" : "luis fernando lovo",
+    "correo" : "lovojuarez10@gmail.com"
+}
+
+###
+PUT http://localhost:3000/estudiantes/456
+
+###
+
+DELETE http://localhost:3000/estudiantes/456
